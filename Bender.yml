@@ -1,0 +1,17 @@
+package:
+  name: udma_i2c
+  authors: 
+    - "Antoine Faravelon <antoine.faravelon@greenwaves-technologies.com>"
+    - "Antonio Pullini <pullinia@iis.ee.ethz.ch>"
+    - "Florent Rotenberg <florent.rotenberg@greenwaves-technologies.com>"
+    - "Jie Chen <jie.chen@greenwaves-technologies.com>"
+    - "Pasquale Davide Schiavone <pschiavo@iis.ee.ethz.ch>"
+
+dependencies:
+  udma_core: {path: "../udma_core"} # to be updated with git repo
+
+sources:
+  - rtl/udma_i2c_reg_if.sv
+  - rtl/udma_i2c_bus_ctrl.sv
+  - rtl/udma_i2c_control.sv
+  - rtl/udma_i2c_top.sv
